@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>ARNAB DAS</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+      <img src="a.jpg" alt="Arnab Das" style="height: 60px; width: 60px; border-radius: 50%;" />
+      </h3>
+
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Arnab Das.</span></h1>
+        <h2 class="about__role">Student & Web Development Enthusiast.</h2>
+        <p class="about__desc">
+          B.Tech CSE student passionate about creating complete web applications, from responsive user interfaces to efficient backend systems.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://docs.google.com/document/d/1zWVXh5e0hMHRlcpkFHOeLd7HWBjsqlHi3vyPFeqHi5k/edit?usp=sharing" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/DarkHashira"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/dark-hashira/"
+            aria-label="linkedin"
+            class="link link--icon" target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Diabetes Prediction</h3>
+            <p class="project__description">
+              This machine learning model analyzes key health indicators to predict the likelihood of diabetes. It processes patient data, applies trained algorithms, and provides accurate, fast, and reliable risk assessments.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">AI/ML</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Colab</li>
+              <li class="project__stack-item">Render</li>
+            </ul>
+
+            <a
+              href="https://github.com/DarkHashira/Predict-Diabetes"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://predict-diabetes-arnab.onrender.com"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Tour and Travels</h3>
+            <p class="project__description">
+              A responsive MERN-based tour and travel platform with the frontend fully developed using React. Includes dynamic destination cards, detailed package pages, booking form UI, and an image gallery. Backend integration for data storage and payments is yet to be implemented.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">MongoDB</li>
+              <li class="project__stack-item">ExpressJS</li>
+              <li class="project__stack-item">ReactJS</li>
+              <li class="project__stack-item">NodeJS</li>
+              <!-- <li class="project__stack-item">Vercel</li> -->
+            </ul>
+
+            <a
+              href="https://github.com/DarkHashira/Tour-and-Travels"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://tour-and-travels-gilt.vercel.app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Simple Rock Paper Scissors</h3>
+            <p class="project__description">
+              A simple and interactive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript. Features responsive design, smooth animations, and instant win/lose result display, allowing users to play against the computer in real time.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JS</li>
+            </ul>
+
+            <a
+              href="https://github.com/DarkHashira/RockPaperScissor"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://darkhashira.github.io/RockPaperScissor/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">MERN</li>
+          <li class="skills__list-item btn btn--plain">NODE</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">OOP</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:darnab628@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Original design by Raj Shekhar | Customized by Arnab Das
+
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
